@@ -21,6 +21,7 @@ body {
 }
 .titulo {
   padding: 10px;
+  text-align: center;
 }
 .entrada {
   min-width: 280px;
