@@ -18,7 +18,6 @@ body {
   width: min-content;
   align-items: center;
   color: black;
-  text-align: center;
 }
 .titulo {
   padding: 10px;
@@ -42,7 +41,6 @@ body {
 .dark-theme #form {
   background-color: #1c1c1c;
   color: white;
-  text-align: center;
 }
 .dark-theme {
   background-color: #1c1c1c;
