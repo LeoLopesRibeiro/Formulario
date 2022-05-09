@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <title>Formulario</title>
+</head>
+<body class="light-theme">
+    <script src="https://kit.fontawesome.com/8d275f86d3.js" crossorigin="anonymous"></script>
+    <div id="form">
+        <form>
+        <h2 class="titulo">Cadastre-se</h2>
+        <label for="nome">Nome</label>
+        <div class="entrada">
+            <i class="fa-solid fa-circle-user"></i>
+            <input type="text" id="nome" required>
+        </div>
+        <label for="email">E-mail</label>
+        <div class="entrada">
+            <i class="fa-solid fa-envelope"></i>
+            <input type="email" id="email" required>
+        </div>
+        <label for="senha">Senha</label>
+        <div class="entrada">
+            <i class="fa-solid fa-lock"></i>
+            <input type="password" id="senha" required>
+        </div>
+        <div>
+            <button type="submit">Cadastrar</button>
+            <button class="btn" type="button">Trocar tema</button>
+        </div>
+    </form>
+    </div>
+    
+
+    <script src="/js/form.js"></script>
+</body>
+</html>
